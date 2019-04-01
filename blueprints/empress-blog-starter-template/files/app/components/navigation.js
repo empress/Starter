@@ -1,1 +1,1 @@
-export { default } from 'empress-blog-base-template/components/navigation';
+export { default } from '<%= dasherizedModuleName %>/components/navigation';

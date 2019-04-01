@@ -1,1 +1,1 @@
-export { default } from 'empress-blog-base-template/components/post-card';
+export { default } from '<%= dasherizedModuleName %>/components/post-card';
