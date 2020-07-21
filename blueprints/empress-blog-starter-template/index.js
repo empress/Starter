@@ -10,6 +10,7 @@ module.exports = {
       return this.addAddonsToProject({
         packages: [
           'ember-cli-htmlbars',
+          'ember-composable-helpers',
         ],
         blueprintOptions: {
           save: true
@@ -19,7 +20,6 @@ module.exports = {
     .then(() => {
       return this.addAddonsToProject({
         packages: [
-          'ember-composable-helpers',
           'ember-data',
           'ember-fetch',
         ]
